@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS terminal</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .terminal {
+            width: 800px;
+            height: 400px;
+            background: #151223;
+            color: #e5e5e5;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+        .unos {
+            color: inherit;
+            background-color: inherit;
+            border: 0;
+            width: 772px;
+        }
+
+        .error {
+            color: #d00;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Javascript terminal</h2>
+    <h3>Simple command line expression evaluator.</h3>
+    <p>To start, enter expression (for example 2+3) and press enter.</p>
+
+    <div class="terminal">
+        <div><span class="blink">> </span><input class="unos" autofocus></div>
+    </div>
+
+    <script async src="main.js"></script>
+
+</body>
+
+</html>
