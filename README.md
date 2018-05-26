@@ -1,3 +1,3 @@
 # JS terminal
 
-Simple Javascript expression evaluator.
+Simple Javascript console expression evaluator.
