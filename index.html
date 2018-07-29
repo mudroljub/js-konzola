@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>JS terminal</title>
+    <title>Javascript konzola</title>
     <link rel="stylesheet" href="style.css">
     <style>
         .terminal {
@@ -31,14 +31,25 @@
 
 <body>
 
-    <h2>JS terminal</h2>
-    <h3>Simple Javascript console expression evaluator.</h3>
-    <p>To start, enter expression (for example 2+3) and press enter.</p>
+    <h2>Javascript konzola</h2>
+    <p id="ideja">Za početak, unesi 2+3 i pritisni enter.</p>
 
     <div class="terminal">
         <div><span class="blink">> </span><input class="unos" autofocus></div>
     </div>
 
+    <script>
+      const ideje = [
+        'Osnovna namena računara je da računaju. Na primer, unesi: (323+456) / 2 i pritisni enter.',
+        'Računari su veoma dobri u ponavljanju. Na primer, unesi:  "Ana voli Milovana ".repeat(10)',
+        'Da saznaš koji je danas datum, unesi: new Date() i pritisni enter.',
+        'Računar ti može reći vrednost broja PI. Unesi: Math.PI i pritisni enter.',
+        'Računar ti može dati slučajan broj između jedan i deset. Unesi: Math.floor(Math.random() * 11) i pritisni enter.',
+        'Da izračunaš koren nekog broja, na primer 49, unesi: Math.sqrt(49) i pritisni enter.'
+      ]
+    
+      document.getElementById('ideja').innerText = ideje[Math.floor(Math.random() * ideje.length)]
+    </script>
     <script async src="main.js"></script>
 
 </body>

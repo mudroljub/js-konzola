@@ -1,5 +1,5 @@
-# JS terminal
+# Javascript konzola
 
-Simple Javascript console expression evaluator.
+Prost evaluator Javascript izraza.
 
-See it in action here: [mudroljub.github.io/js-terminal](https://mudroljub.github.io/js-terminal)
+Vidi kako radi ovde: [mudroljub.github.io/js-terminal](https://mudroljub.github.io/js-terminal)
