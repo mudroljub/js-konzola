@@ -2,4 +2,4 @@
 
 Prost evaluator Javascript izraza.
 
-Vidi kako radi ovde: [mudroljub.github.io/js-terminal](https://mudroljub.github.io/js-terminal)
+Vidi kako radi ovde: [mudroljub.github.io/js-konzola](https://mudroljub.github.io/js-konzola)
